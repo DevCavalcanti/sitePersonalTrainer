@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Trade+Winds&display=swap');
+
+--root{
+    font-family: 'Condiment', cursive;
+    font-family: 'Trade Winds', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    margin: 0;
+}
+
+.header span a{
+    font-family: cinzel;
+    text-align: center;
+    
+    text-shadow: 1px 1px 4px black;
+    font-size: 2rem;
+}
+
+.meuteste{
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 4px;
+    overflow: visible;
+
+}
+
+@media screen and
+(min-width: 200px) and
+(max-width: 640px){
+
+    .header span a{
+        font-family: cinzel;
+        text-align: center;
+        margin: 0 auto;
+        text-shadow: 1px 1px 4px black;
+        font-size: 1.5rem;
+    }
+    
+
+
+}
+
+
+
+
+
+
